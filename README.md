@@ -1,12 +1,12 @@
 ## News Application - Jetpack Compose Clean Architecture Example
 
-News app is an example for show news using https://thenewsapi.com API, built with Jetpack Compose.The goal of the sample is to showcase the current UI capabilities of Compose. Design pattern: Clean Architecture & MVVM
+News app is a sample project that displays news using the News API, built with Jetpack Compose.It demonstrates the current UI capabilities of Compose and follows the Clean Architecture and MVVM design patterns
 
 
 ## Features
 
 The example shows current news from thenewsapi and other information such as:
-   * Newsfeed
+   * Newsfeeds
    * Bookmark article
    * View article detail
 ## Data-Flow
@@ -40,11 +40,7 @@ The example shows current news from thenewsapi and other information such as:
     * [Room](https://developer.android.com/training/data-storage/room): For local database persistence (likely for bookmarks or caching).
     * [Paging 3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview): For efficiently loading and displaying large datasets in lists (e.g., news articles).
 
-* **Build & Tooling:**
-    * [Gradle (Kotlin DSL)](https://docs.gradle.org/current/userguide/kotlin_dsl.html): For build automation.
-    * [Kotlinx Serialization](https://github.com/Kotlin/kotlinx.serialization): For serializing/deserializing Kotlin objects (used with Navigation Component for type-safe argument passing).
-
-* **Testing (likely based on common dependencies seen in similar projects, verify specific usage):**
+* **Testing:**
     * [JUnit 5](https://junit.org/junit5/): For unit testing.
     * [MockK](https://mockk.io/): For creating mocks in Kotlin unit tests.
     * [Turbine](https://github.com/cashapp/turbine): For testing Kotlin Flows.
