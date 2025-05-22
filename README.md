@@ -94,4 +94,6 @@ Android Studio will build the project and install the app on your selected devic
 
 # Running Tests
   Open terminal and run the following command:
+  ```bash
   ./gradlew testDebugUnitTest
+  ```
