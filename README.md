@@ -92,6 +92,6 @@ Follow these steps to get the NewsApplication project up and running on your loc
 Android Studio will build the project and install the app on your selected device or emulator.
 
 
-# Run test
+# Running Tests
   Open terminal and run the following command:
   ./gradlew testDebugUnitTest
