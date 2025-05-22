@@ -17,30 +17,34 @@ The example shows current news from thenewsapi and other information such as:
 ## Tech Stack & Architecture
 
 * **Core:**
-    * [Kotlin](https://kotlinlang.org/): Primary programming language.
-    * [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html): For asynchronous programming and managing background tasks.
-    * [Kotlin Flows](https://kotlinlang.org/docs/flow.html): Used extensively for reactive data streams, particularly with Room and network responses.
+    * [Kotlin](https://kotlinlang.org/)
+    * [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)
+    * [Kotlin Flows](https://kotlinlang.org/docs/flow.html)
+
+* **Architecture:**
+    * Clean Architecture
+    * MVVM (Model-View-ViewModel)
 
 * **Dependency Injection:**
-    * [Hilt](https://dagger.dev/hilt/): For managing dependencies throughout the application, simplifying DI in Android.
+    * [Hilt](https://dagger.dev/hilt/)
 
 * **User Interface (UI):**
-    * [Jetpack Compose](https://developer.android.com/jetpack/compose): For building the native UI declaratively with Kotlin.
-    * [Material 3](https://m3.material.io/): Implementing Material Design components and theming.
-    * [Compose Navigation](https://developer.android.com/jetpack/compose/navigation): For handling navigation between screens in a Compose-first way.
-    * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel): Part of Jetpack, used to store and manage UI-related data in a lifecycle-conscious way.
-    * [Coil](https://coil-kt.github.io/coil/compose/): For image loading in Jetpack Compose, optimized for Kotlin and Coroutines.
+    * [Jetpack Compose](https://developer.android.com/jetpack/compose)
+    * [Material 3](https://m3.material.io/)
+    * [Compose Navigation](https://developer.android.com/jetpack/compose/navigation)
+    * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
+    * [Coil](https://coil-kt.github.io/coil/compose/)
 
 * **Networking:**
-    * [Retrofit](https://square.github.io/retrofit/): For type-safe HTTP client and consuming RESTful APIs.
-    * [OkHttp](https://square.github.io/okhttp/): As the underlying HTTP client for Retrofit, providing interceptors for logging and request modification.
-    * [Gson](https://github.com/google/gson): For JSON serialization and deserialization.
+    * [Retrofit](https://square.github.io/retrofit/)
+    * [OkHttp](https://square.github.io/okhttp/)
+    * [Gson](https://github.com/google/gson)
 
 * **Data & Storage:**
-    * [Room](https://developer.android.com/training/data-storage/room): For local database persistence (likely for bookmarks or caching).
-    * [Paging 3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview): For efficiently loading and displaying large datasets in lists (e.g., news articles).
+    * [Room](https://developer.android.com/training/data-storage/room)
+    * [Paging 3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview)
 
 * **Testing:**
-    * [JUnit 5](https://junit.org/junit5/): For unit testing.
-    * [MockK](https://mockk.io/): For creating mocks in Kotlin unit tests.
-    * [Turbine](https://github.com/cashapp/turbine): For testing Kotlin Flows.
+    * [JUnit 5](https://junit.org/junit5/)
+    * [MockK](https://mockk.io/)
+    * [Turbine](https://github.com/cashapp/turbine)
