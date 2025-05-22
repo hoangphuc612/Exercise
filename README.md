@@ -1,7 +1,19 @@
 ## News Application - Jetpack Compose Clean Architecture Example
 
 News app is an example for show news using https://thenewsapi.com API, built with Jetpack Compose.The goal of the sample is to showcase the current UI capabilities of Compose. Design pattern: Clean Architecture & MVVM
-![Screenshot_1747882479](https://github.com/user-attachments/assets/325c9fbf-a015-466d-86b0-b6e934f3c7b1)![Screenshot_1747882498](https://github.com/user-attachments/assets/56516bf8-7aae-4a01-b52e-e6a0fa40fc09)![Screenshot_1747882518](https://github.com/user-attachments/assets/92e69be5-f7c1-4546-9b78-b6f739d132a6)
+
+<table>
+  <tr>
+    <td>
+      <img src="![Screenshot_1747882479](https://github.com/user-attachments/assets/325c9fbf-a015-466d-86b0-b6e934f3c7b1)" alt="App Screenshot 1 - Home" width="260"/>
+    </td>
+    <td>
+      <img src="![Screenshot_1747882518](https://github.com/user-attachments/assets/92e69be5-f7c1-4546-9b78-b6f739d132a6)" alt="App Screenshot 2 - Search" width="260"/>
+    </td>
+  </tr>
+</table>
+
+![Screenshot_1747882498](https://github.com/user-attachments/assets/56516bf8-7aae-4a01-b52e-e6a0fa40fc09)![Screenshot_1747882518](https://github.com/user-attachments/assets/92e69be5-f7c1-4546-9b78-b6f739d132a6)
 
 ## Features
 
